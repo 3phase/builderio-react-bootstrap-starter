@@ -1,0 +1,24 @@
+/* Load Bootstrap globally */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+/* App scaffolding */
+:root {
+  --app-bg: #0b0c10;
+  --app-fg: #e5e7eb;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--app-fg);
+}
+
+
+a {
+  color: #9ecbff;
+}
+
+
+.builder-container {
+  min-height: 60vh;
+}
